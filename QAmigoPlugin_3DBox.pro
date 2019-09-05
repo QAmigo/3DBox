@@ -10,8 +10,12 @@ TARGET = $$qtLibraryTarget(QAmigoPlugin_3DBox)
 TEMPLATE = lib
 
 CONFIG		+= plugin
-INCLUDEPATH	+= ../../../QSerial-Socket-Amigo/src
-DESTDIR		= "~/Documents/QSerial Socket Amigo/plugins"
+INCLUDEPATH	+= G:\workSpace\othersWork\QSerial-Socket-Amigo\src
+DESTDIR		= "C:\Users\Xian\Documents\QSerial Socket Amigo/plugins"
+
+win32 {
+    LIBS += -lglu32 -lopengl32
+}
 
 # The following define makes your compiler emit warnings if you use
 # any feature of Qt which has been marked as deprecated (the exact warnings
