@@ -9,7 +9,7 @@
 class QAmigoPlugin_3DBox : public TabPluginInterface
 {
     Q_OBJECT
-    Q_PLUGIN_METADATA(IID "org.UESTC.SongQiang.TabPluginInterface" FILE "3DBox.json")
+    Q_PLUGIN_METADATA(IID "org.UESTC.SongQiang.TabPluginInterface")
     Q_INTERFACES(TabPluginInterface)
 public:
     QAmigoPlugin_3DBox();
